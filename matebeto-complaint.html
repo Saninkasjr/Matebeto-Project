@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Complaint Form</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Complaint Form</h1>
+      <p class="lead text-center">We value your feedback and take all complaints seriously. Please use the form below to submit your complaint and we will do our best to resolve the issue as soon as possible</p>
+      <form id="complaint-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          <div class="invalid-feedback">Please enter your name</div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          <div class="invalid-feedback">Please enter a valid email</div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Enter the subject of your complaint" required>
+          <div class="invalid-feedback">Please enter the subject of your complaint</div>
+        </div>
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea class="form-control" id="description" rows="3" placeholder="Enter a detailed description of your complaint" required></textarea>
+          <div class="invalid-feedback">Please enter a detailed description of your complaint</div>
+        </div>
+        <button type="submit" class="btn btn-outline-primary btn-block">Submit</button>
+        
+      </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+</html>
